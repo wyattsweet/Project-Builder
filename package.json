@@ -1,10 +1,15 @@
 {
   "name": "@wyattsweet/bootstrap-react",
   "version": "1.0.0",
-  "description": "experiment in building a cli for managing boilerplate react files",
+  "description":
+    "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "bin": {
-    "link-webpack": "bin/linkWebpackConfig.js"
+    "setup": "bin/setup.js",
+    "link-webpack": "bin/linkWebpackConfig.js",
+    "link-eslintrc": "bin/linkeslintrc.js",
+    "link-babelrc": "bin/linkBabelrc.js",
+    "build-react": "bin/build.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
