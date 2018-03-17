@@ -1,14 +1,15 @@
 {
   "name": "@wyattsweet/bootstrap-react",
   "version": "1.0.0",
-  "description":
-    "experiment in building a cli for managing boilerplate react files",
+  "description": "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "bin": {
     "setup": "bin/setup.js",
     "link-webpack": "bin/linkWebpackConfig.js",
     "link-eslintrc": "bin/linkeslintrc.js",
     "link-babelrc": "bin/linkBabelrc.js",
+    "link-postcss": "bin/linkPostcssConfig.js",
+    "cp-main-html": "bin/cpMainHtml.js",
     "build-react": "bin/build.js"
   },
   "scripts": {
