@@ -1,7 +1,8 @@
 {
   "name": "@wyattsweet/bootstrap-react",
-  "version": "1.0.0",
-  "description": "experiment in building a cli for managing boilerplate react files",
+  "version": "0.0.3",
+  "description":
+    "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "bin": {
     "setup": "bin/setup.js",
@@ -15,7 +16,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": ["tooling", "react"],
+  "author": "Wyatt Sweet",
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.8.1"
