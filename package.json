@@ -1,8 +1,7 @@
 {
   "name": "@wyattsweet/project-builder",
-  "version": "1.0.0",
-  "description":
-    "experiment in building a cli for managing boilerplate react files",
+  "version": "1.0.1",
+  "description": "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +15,10 @@
     "cp-main-html": "bin/cpMainHtml.js",
     "build-react": "bin/build.js"
   },
-  "keywords": ["tooling", "react"],
+  "keywords": [
+    "tooling",
+    "react"
+  ],
   "author": "Wyatt Sweet",
   "license": "ISC",
   "dependencies": {
