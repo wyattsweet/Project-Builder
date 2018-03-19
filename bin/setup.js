@@ -7,7 +7,10 @@ const mainFile = path.join(__dirname, '../src/index.jsx');
 
 shell.exec('yarn init -y');
 shell.exec('mkdir src');
-shell.exec(`cp ${mainFile} src`);
+shell.exec('mkdir src/components');
+shell.exec('mkdir styles');
+shell.touch('styles/base.css');
+shell.exec(`cp ${mainFile} src/components`);
 shell.exec('yarn add react react-dom react-router-dom');
 
 shell.exec(
