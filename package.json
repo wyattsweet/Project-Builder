@@ -1,6 +1,6 @@
 {
-  "name": "@wyattsweet/bootstrap-react",
-  "version": "0.0.5",
+  "name": "@wyattsweet/project-builder",
+  "version": "1.0.0",
   "description":
     "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
