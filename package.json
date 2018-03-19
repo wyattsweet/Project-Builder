@@ -1,11 +1,10 @@
 {
   "name": "@wyattsweet/bootstrap-react",
   "version": "0.0.4",
-  "description":
-    "experiment in building a cli for managing boilerplate react files",
+  "description": "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish --access=public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "setup": "bin/setup.js",
@@ -16,10 +15,10 @@
     "cp-main-html": "bin/cpMainHtml.js",
     "build-react": "bin/build.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["tooling", "react"],
+  "keywords": [
+    "tooling",
+    "react"
+  ],
   "author": "Wyatt Sweet",
   "license": "ISC",
   "dependencies": {
