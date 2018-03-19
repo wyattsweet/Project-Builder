@@ -5,7 +5,7 @@
     "experiment in building a cli for managing boilerplate react files",
   "main": "index.js",
   "scripts": {
-    "publich": "npm publish --access=public"
+    "publish": "npm publish --access=public"
   },
   "bin": {
     "setup": "bin/setup.js",
