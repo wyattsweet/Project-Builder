@@ -1,6 +1,5 @@
 {
   "presets": [
-    "react",
     [
       "env", {
         "targets": {
@@ -9,8 +8,10 @@
         "loose": true,
         "modules": false
       }
-    ]
+    ],
+    "react"
   ],
+  "plugins": ["transform-class-properties", "transform-object-rest-spread"],
   "env": {
     "test": {
       "presets": [

@@ -1,5 +1,6 @@
 {
   "extends": ["airbnb", "prettier", "prettier/react"],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2016,
     "sourceType": "module",
@@ -26,6 +27,9 @@
     "no-return-assign": "off",
     "react/require-default-props": "off",
     "react/prop-types": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "eqeqeq": "off",
+    "import/prefer-default-export": "off",
+    "react/sort-comp": "off"
   }
 }
