@@ -1,9 +1,11 @@
 const path = require('path');
 
+const projDir = path.join(__dirname, '../../../..');
+
 module.exports = {
   entry: './src/components/index',
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(projDir, 'public'),
     filename: 'bundle.js',
     libraryTarget: 'umd'
   },
