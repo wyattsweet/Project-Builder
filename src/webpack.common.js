@@ -2,15 +2,10 @@ const path = require('path');
 
 module.exports = {
   entry: './src/components/index',
-  devtool: 'cheap-eval-source-map',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
     libraryTarget: 'umd'
-  },
-  devServer: {
-    publicPath: '/public/',
-    historyApiFallback: true
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json']

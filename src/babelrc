@@ -21,7 +21,8 @@
             "modules": "commonjs" 
           }
         ]
-      ]
+      ],
+      "plugins": ["transform-class-properties", "transform-object-rest-spread"]
     }
   }
 }
