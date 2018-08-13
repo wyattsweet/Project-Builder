@@ -13,7 +13,8 @@
     "link-babelrc": "bin/linkBabelrc.js",
     "link-postcss": "bin/linkPostcssConfig.js",
     "cp-main-html": "bin/cpMainHtml.js",
-    "build-react": "bin/build.js"
+    "build-react": "bin/build.js",
+    "write-file": "bin/mvToDir.js"
   },
   "keywords": [
     "tooling",
